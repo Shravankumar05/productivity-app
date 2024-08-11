@@ -8,7 +8,7 @@ This application allows users to add, update, and delete tasks. Further features
 - Login feature using JWT to allow for multiple users
 - Calendar based view for tasks
 
-## Features
+## Current Features
 - **Create Tasks**: Add new tasks to your to-do list.
 - **Update Tasks**: Mark tasks as completed or incomplete with a single click.
 - **Delete Tasks**: Remove tasks from the list.
@@ -18,22 +18,29 @@ This application allows users to add, update, and delete tasks. Further features
 - **Frontend**: React, Vite, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Others**: Axios for API requests, Mongoose for MongoDB schema and model.
+- **Others**: Axios for API requests, Mongoose for MongoDB schema/model.
 
 ## Installation and Usage
-1. Clone the repository:
-   `git clone https://github.com/your-username/productivity-app.git`
+1. Set up required resources:
+   a. Download the repository
+   b. Download node.js
+   c. Download mongoDB and mongoDB compass then create a new connection to run locally
 
-2. Navigate to the directory:
+2. Open the Productivity-App folder with visual-studio.
+
+3. Navigate to the directory and run in the terminal:
   `cd productivity-app`
 
-3. Install new-app dependencies:
-  `cd client`
-  `npm install`
-  `npm run dev`
+4. Install new-app dependencies:
+  `cd client` 
+  `npm install` 
+  `npm install mongoose react express cors axios react-dom react-icons`  
+  `npm run dev` 
 
-4. Install server dependencies:
+5. Install server dependencies:
   `cd Server`
-  `node index.js`
+  `npm install`
+  `npm install cors express mongoose nodemon`
+  `node index.js` 
 
-5. Go to `http://localhost:5173/` to view the app
+7. Go to `http://localhost:5173/` to view the app.
