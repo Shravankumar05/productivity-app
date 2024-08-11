@@ -1,0 +1,96 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-image: url('C:/Users/Lenovo/projects/MERN App/new-app/src/assets/Aqua 6K P3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.home {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.create_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.create_form input {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+  color: #5577ef;
+  border: 2px solid rgba(4, 122, 254);
+  border-radius: 30px;
+  background-color: white;
+  outline: none;
+}
+
+.create_form button {
+  margin-left: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  background: rgba(4, 122, 254);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  white-space: nowrap;
+  border: solid white;
+}
+
+.create_form button:hover {
+  background: white;
+  color: rgba(4, 122, 254);
+  border: 2px solid rgba(4, 122, 254);
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgba(4, 122, 254, 0.8); /* Semi-transparent background */
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for a floating effect */
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: greenyellow;
+}
+
+.checkbox {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 15px;
+  font-size: 24px;
+}
+
