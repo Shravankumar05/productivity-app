@@ -22,22 +22,18 @@ This application allows users to add, update, and delete tasks. Further features
 
 ## Installation and Usage
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/productivity-app.git```
+   ```git clone https://github.com/your-username/productivity-app.git```
 
 2. Navigate to the directory:
-  ```bash
-  cd productivity-app```
+  ```cd productivity-app```
 
 3. Install new-app dependencies:
-  ```bash
-  cd client
+  ```cd client
   npm install
   npm run dev```
 
 4. Install server dependencies:
-  ```bash
-  cd Server
+  ```cd Server
   node index.js```
 
-5. Go to ```bash http://localhost:5173/``` to view the app
+5. Go to ```http://localhost:5173/``` to view the app
