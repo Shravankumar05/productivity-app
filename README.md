@@ -24,23 +24,23 @@ This application allows users to add, update, and delete tasks. Further features
 1. Set up required resources:
    a. Download the repository
    b. Download node.js
-   c. Download mongoDB and mongoDB compass then create a new connection to run locally
+   c. Download mongoDB and mongoDB compass then create a new connection to run locally - setting a custom connection string as: `mongodb://localhost:27017`
 
 2. Open the Productivity-App folder with visual-studio.
 
-3. Navigate to the directory and run in the terminal:
-  `cd productivity-app`
+3. Navigate to the directory.
 
 4. Install new-app dependencies:
   `cd client` 
   `npm install` 
   `npm install mongoose react express cors axios react-dom react-icons`  
-  `npm run dev` 
 
 5. Install server dependencies:
   `cd Server`
   `npm install`
   `npm install cors express mongoose nodemon`
-  `node index.js` 
+
+6. Run the programme as follows:
+  `node index.js` - in cd Server, and `npm run dev` - in cd new-app.
 
 7. Go to `http://localhost:5173/` to view the app.
