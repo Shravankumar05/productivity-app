@@ -4,6 +4,7 @@
 The Productivity App is a full-stack to-do list application developed using the MERN stack - MongoDB, Express.js, React, Node.js.
 This application allows users to add, update, and delete tasks. Further features to be added are:
 - [ ] Due-dates for tasks.
+- [ ] Edit tasks option.
 - [ ] Tags for tasks.
 - [ ] Kanban board style design.
 - [ ] Navigation bar for multiple view ability.
